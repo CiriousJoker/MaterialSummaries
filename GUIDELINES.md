@@ -1,4 +1,4 @@
-# Guidelines - v1.2.0
+# Guidelines - v1.3.0
 
 Diese Guidelines definieren Struktur, Inhalt & Styling einer Zusammenfassung.
 
@@ -46,17 +46,23 @@ Für die Farbpalette gibt's unter Chrome eine geniale Extension namens [Simple M
 
 ## Text-Styling
 
--   **Normaler Text:** Roboto Normal, 11, MaterialGrey900
+-   **Defaults:**
+    -   **Font:** Roboto Normal
+    -   **Farbe:** MaterialGrey900
+    -   **Line Spacing:** 1
+    -   **Custom Spacing:** 0
+    -   **Custom Spacing (Überschriften 1-4):** 8 (before), 4 (after)
+-   **Normaler Text:** 11, Line Spacing: 1.15
 -   **Titel:** Roboto Light, 24, MaterialGrey700
--   **Überschrift 1:** TODO
--   **Überschrift 2:** TODO
--   **Überschrift 3:** TODO
--   **Überschrift 4:** TODO
--   **Links:** Siehe normaler Text, MaterialBlue500, **nicht** unterstrichen
--   **Gleichungen per Equation Editor:** Schriftgröße 12
+-   **Überschrift 1:** 18
+-   **Überschrift 2:** 16
+-   **Überschrift 3:** 14
+-   **Überschrift 4:** Roboto Bold, 12
+-   **Links:** Normaler Text, MaterialBlue500, **nicht unterstrichen**
+-   **Gleichungen per Equation Editor:** 12
 -   **Code:** Roboto Mono, 11, MaterialGrey900
 -   **LaTeX-Formeln:** Möglichst die gleiche Größe wie umliegendert Text. Falls unmöglich, gleiche Größe wie umliegende LaTeX-Formeln
--   **Allgemein:**
+-   **Sonstiges:**
     -   Überschriften dürfen nicht mit einem Doppelpunkt enden
     -   Kein fett markierter Text in Überschriften (Ausnahme: Überschrift 4)
 
@@ -77,7 +83,7 @@ Für die Farbpalette gibt's unter Chrome eine geniale Extension namens [Simple M
 
 ## Hinweise:
 
-Hinweise müssen folgendermaßen formatiert werden:
+Hinweise müssen folgendermaßen formatiert werden (normaler Text):
 
 > **Hinweis(e):**<br>
 > Kurzer Satz oder Liste.
