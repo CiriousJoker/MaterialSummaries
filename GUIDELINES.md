@@ -1,4 +1,4 @@
-# Guidelines - v1.0.0
+# Guidelines - v1.1.0
 
 Diese Guidelines definieren Struktur, Inhalt & Styling einer Zusammenfassung.
 
@@ -51,6 +51,7 @@ Für die Farbpalette gibt's unter Chrome eine geniale Extension namens [Simple M
 -   **Überschrift 2:** TODO
 -   **Überschrift 3:** TODO
 -   **Überschrift 4:** TODO
+-   **Links:** Siehe normaler Text, MaterialBlue500, **nicht** unterstrichen
 -   **Gleichungen per Equation Editor:** Schriftgröße 12
 -   **Code:** Roboto Mono, 11, MaterialGrey900
 -   **LaTeX-Formeln:** Möglichst die gleiche Größe wie umliegendert Text. Falls unmöglich, gleiche Größe wie umliegende LaTeX-Formeln
@@ -90,11 +91,10 @@ Hinweise müssen folgendermaßen formatiert werden:
     -   Keine Seitennummer
 -   **Rand:** 1cm, um Druckbarkeit zu gewährleisten
 -   **Footer:**
-    -   **Links:** Nichts
-    -   **Mitte:** MaterialSummary: [Fach] - [Aktuelles Jahr] - README<br>
-        _MaterialSummary: [Fach]:_ Link zur offiziellen Version der Zusammenfassung<br>
-        _README:_ Link zum README dieses Repositories
+    -   **Links:** "Über da Projekt" (Link zu diesem Repository)
+    -   **Mitte:** MaterialSummary: [Fach] (Link zum offiziellen Google Doc der jeweiligen Zusammenfassung)
     -   **Rechts:** Seitennummer, beginnend bei 1 für's Deckblatt
+        ![Cloudy](./Screenshots/Footer.png)
 
 ## Sonstiges
 
