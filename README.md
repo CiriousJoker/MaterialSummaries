@@ -31,7 +31,7 @@ Die [LIZENZ](<[LIZENZ.md](LIZENZ.md).md>) soll eine geordnete Zusammenarbeit erm
 
 -   Es gibt dieses Repository für allgemeine Infos & [projektbezogene issues](../../issues) (Änderungsvorschläge zu Summaries kommen in das Google Doc selbst)
 -   Es gibt pro Zusammenfassung eine offizielle Version, die auf einem Google Drive Account als Google Doc abgelegt ist
--   Das Dokument ist öffentlich über einen Link erreichbar und jeder kann Änderungsvorschläge einbringen. Der Link sollte entsprechend der [LIZENZ](LIZENZ.md) verbreitet werden.
+-   Das Dokument ist öffentlich über einen Link erreichbar und jeder kann Änderungsvorschläge einbringen. Der Link sollte entsprechend der [LIZENZ](LIZENZ.md) verbreitet werden
 -   Es gibt einen Maintainer, der sich die Änderungsvorschläge einarbeitet
 -   Die Zusammenfassungen werden nicht-öffentlich im Downloadbereich der Fachschaft veröffentlicht (sry an die Profs, die das hier womöglich lesen)
 
