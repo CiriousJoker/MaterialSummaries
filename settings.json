@@ -1,0 +1,18 @@
+{
+    "editor.fontSize": 7,
+    "workbench.colorCustomizations": {
+        "editor.background": "#ffffff"
+    },
+    "editor.tokenColorCustomizations": {
+        "[Material Light]": {
+            "comments": "#4caf50",
+            "functions": "#2196F3",
+            "variables": "#212121",
+            "keywords": "#ff9800",
+            "strings": "#f44336",
+            "numbers": "#00bcd4"
+        }
+    },
+    "editor.insertSpaces": true,
+    "editor.tabSize": 1
+}
