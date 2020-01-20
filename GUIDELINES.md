@@ -1,4 +1,4 @@
-# Guidelines - v1.1.0
+# Guidelines - v1.2.0
 
 Diese Guidelines definieren Struktur, Inhalt & Styling einer Zusammenfassung.
 
@@ -12,6 +12,7 @@ Diese Guidelines definieren Struktur, Inhalt & Styling einer Zusammenfassung.
 -   Informationen/Überschriften/etc. so komprimiert und logisch wie möglich
 -   Bei Platzmangel: Inhalte mit den niedrigsten Bewertungseinheiten/cm zuerst streichen
 -   Möglichst wenig erklärenden Fließtext, da dieser selten prüfungsrelevant ist. Der Sinn sollte anderweitig dargestellt werden (Tabellen, Formeln, Schritte, Hinweise)
+-   Die Länge der Zusammenfassung sollte immer der Maximal-Länge für das aktuelle Semester entsprechen
 
 ## Mathematische Formeln
 
