@@ -1,4 +1,4 @@
-# Guidelines - v1.3.0
+# Guidelines - v1.4.0
 
 Diese Guidelines definieren Struktur, Inhalt & Styling einer Zusammenfassung.
 
@@ -10,7 +10,10 @@ Diese Guidelines definieren Struktur, Inhalt & Styling einer Zusammenfassung.
 -   Quelltexte ausschließlich auf Englisch
 -   Struktur und Inhalt sollte sich weitestgehend nach Altklausuren richten (falls vorhanden) und alle anderen Zusammenfassungen vereinen (nicht zusammenkopieren, sondern logisch ersetzen!)
 -   Informationen/Überschriften/etc. so komprimiert und logisch wie möglich
--   Bei Platzmangel: Inhalte mit den niedrigsten Bewertungseinheiten/cm zuerst streichen
+-   **Bei Platzmangel:**
+    -   Letzte Ebene aus der Gliederung entfernen (Ebenen 1 & 2 müssen bleiben)
+    -   Evaluieren, ob Querformat evtl. Platz spart
+    -   Inhalte mit den niedrigsten Bewertungseinheiten/cm zuerst streichen
 -   Möglichst wenig erklärenden Fließtext, da dieser selten prüfungsrelevant ist. Der Sinn sollte anderweitig dargestellt werden (Tabellen, Formeln, Schritte, Hinweise)
 -   Die Länge der Zusammenfassung sollte immer der Maximal-Länge für das aktuelle Semester entsprechen
 
@@ -58,13 +61,21 @@ Für die Farbpalette gibt's unter Chrome eine geniale Extension namens [Simple M
 -   **Überschrift 2:** 16
 -   **Überschrift 3:** 14
 -   **Überschrift 4:** Roboto Bold, 12
--   **Links:** Normaler Text, MaterialBlue500, **nicht unterstrichen**
+-   **Links:** Wie Normaler Text, MaterialBlue500, **nicht unterstrichen**
 -   **Gleichungen per Equation Editor:** 12
 -   **Code:** Roboto Mono, 11, MaterialGrey900
 -   **LaTeX-Formeln:** Möglichst die gleiche Größe wie umliegendert Text. Falls unmöglich, gleiche Größe wie umliegende LaTeX-Formeln
 -   **Sonstiges:**
     -   Überschriften dürfen nicht mit einem Doppelpunkt enden
     -   Kein fett markierter Text in Überschriften (Ausnahme: Überschrift 4)
+
+## Gliederung
+
+-   Kommt unter der Überschrift "Gliederung", die aber nicht in der Gliederung auftaucht
+-   **Default Formatierung:** Wie automatisch angelegt
+-   **Font Size:** 8
+-   **Custom Spacing:** 0 (muss manuell gemacht werden!)
+-   Überschriften, nach denen nicht "gesucht" wird, sollten entfernt werden. Das passiert z.B. bei Hinweisen, aber auch sonst bei Überschriften der 4. Ebene
 
 ## Tabellen
 
@@ -83,7 +94,7 @@ Für die Farbpalette gibt's unter Chrome eine geniale Extension namens [Simple M
 
 ## Hinweise:
 
-Hinweise müssen folgendermaßen formatiert werden (normaler Text):
+Hinweise müssen folgendermaßen formatiert werden (Überschrift 4):
 
 > **Hinweis(e):**<br>
 > Kurzer Satz oder Liste.
@@ -102,6 +113,7 @@ Hinweise müssen folgendermaßen formatiert werden (normaler Text):
     -   **Mitte:** MaterialSummary: [Fach] (Link zum offiziellen Google Doc der jeweiligen Zusammenfassung)
     -   **Rechts:** Seitennummer, beginnend bei 1 für's Deckblatt
         ![Cloudy](./Screenshots/Footer.png)
+-   Hochformat ist grundsätzlich bevorzugt, kann aber (z.B. aus Platzmangel) geändert werden
 
 ## Sonstiges
 
