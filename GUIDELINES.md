@@ -1,21 +1,41 @@
-# Guidelines - v1.4.0
+# Guidelines - v1.5.0
 
 Diese Guidelines definieren Struktur, Inhalt & Styling einer Zusammenfassung.
 
 # Inhalt
 
+## Der Qualitätsanspruch
+
+> Ein Student, der weder die Vorlesung noch die Übung besucht hat und dessen Mathe-Kenntnisse sich auf das Abitur beschränken, sollte mit einer Stunde Zeitaufwand zur Einarbeitung in die entsprechende Zusammenfassung die Prüfung bestehen.
+
+**Aus diesem Qualitätsanspruch ergeben sich folgende Dinge:**
+
+-   Das **einzige** Ziel der Zusammenfassung ist, die Prüfung zu bestehen. Das bedeutet, dass alle Inhalte, die nicht prüfungsrelevant sind sondern nur zum besseren Verständnis dienen, in der Zusammenfassung nichts zu suchen haben. Sie sorgen nur für Verwirrung und Zeitverlust in der Prüfung. Das Ziel ist nicht das Thema zu verstehen, sondern die Prüfung zu bestehen, das ist ein großer Unterschied
+-   Eine Stunde ist wenig Zeit, muss aber ausreichen. Wenn man in der Vorbereitung lange braucht, um die Zusammenfassung zu verstehen, ist sie schlecht strukturiert und kostet in der Prüfung unnötig Zeit. Struktur und Inhalt müssen also so effizient wie möglich verpackt werden, sowohl was Platz als auch "Aufnahmegeschwindigkeit" angeht.
+
 ## Allgemeines
+
+-   Inhaltlich sollte die Zusammenfassung alle anderen Zusammenfassungen logisch ersetzen. Dabei sollten die Themen nicht "zusammenkopiert" werden, sondern nur die relevanten Aspekte so knapp wie möglich eingearbeitet werden. Wenn am Ende ersichtlich ist, wo eine Information her ist, wurde ein Fehler begangen.
+-   Altklausuren sollten den größten Einfluss auf den Inhalt haben, sofern davon auszugehen ist, dass die aktuelle Klausur ähnlich sein wird
+-   Erklärender Fließtext ist selten prüfungsrelevant und der Sinn sollte anderweitig dargestellt werden (Tabellen, Formeln, Schritte, Hinweise)
+-   Ein Beispiel mit Erklärungshinweisen ist fast immer besser als die Abstraktion
+
+## Sprache
 
 -   Deutsch als Standardsprache, Anglizismen erlaubt
 -   Quelltexte ausschließlich auf Englisch
--   Struktur und Inhalt sollte sich weitestgehend nach Altklausuren richten (falls vorhanden) und alle anderen Zusammenfassungen vereinen (nicht zusammenkopieren, sondern logisch ersetzen!)
--   Informationen/Überschriften/etc. so komprimiert und logisch wie möglich
--   **Bei Platzmangel:**
-    -   Letzte Ebene aus der Gliederung entfernen (Ebenen 1 & 2 müssen bleiben)
-    -   Evaluieren, ob Querformat evtl. Platz spart
-    -   Inhalte mit den niedrigsten Bewertungseinheiten/cm zuerst streichen
--   Möglichst wenig erklärenden Fließtext, da dieser selten prüfungsrelevant ist. Der Sinn sollte anderweitig dargestellt werden (Tabellen, Formeln, Schritte, Hinweise)
+
+## Struktur
+
+-   Der Leser muss den Weg von der Aufgabenstellung zur Lösung in der Zusammenfassung so schnell wie möglich finden
+-   Überschriften sollten sich weitestgehend nach Altklausuren richten (falls vorhanden)
 -   Die Länge der Zusammenfassung sollte immer der Maximal-Länge für das aktuelle Semester entsprechen
+
+## Bei Platzmangel
+
+-   Letzte Ebene aus der Gliederung entfernen (Ebenen 1 & 2 müssen bleiben)
+-   Evaluieren, ob Querformat evtl. Platz spart
+-   Inhalte mit den niedrigsten Bewertungseinheiten/cm zuerst streichen
 
 ## Mathematische Formeln
 
