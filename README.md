@@ -37,4 +37,4 @@ Die [LIZENZ](<[LIZENZ.md](LIZENZ.md).md>) soll eine geordnete Zusammenarbeit erm
 
 ### Wichtiger Hinweis
 
-Änderungsvorschläge an einer Zusammenfassung sollten sich _möglichst_ an die Guidelines halten, aber die Guidelines sollen niemanden davon abhalten, Änderungsvorschläge zu machen. Besser einen Vorschlag zu viel als zu wenig, am Ende ist eh der Maintainer dafür verantwortlich, dass der Vorschlag entsprechend eingearbeitet wird.
+Es ist nicht schlimm, wenn Änderungsvorschläge sich nicht an die Guidelines halten. Der Maintainer ist dafür verantwortlich, dass die Vorschläge entsprechend eingearbeitet werden.
