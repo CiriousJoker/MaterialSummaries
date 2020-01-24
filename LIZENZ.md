@@ -27,7 +27,10 @@ Wird ein Dokument zum Download angeboten, muss das .zip Archiv folgendes beinhal
 -   **.docx** Datei, damit der "Sourcecode” nicht verloren gehen kann
 -   **README.txt** nach diesem Schema: [README-TEMPLATE](README-TEMPLATE.md)
 
-Download Pakete sollten vom Maintainer erstellt werden, um Einheitlichkeit zu gewährleisten.
+Download Pakete sollten vom Maintainer erstellt werden, um Einheitlichkeit zu gewährleisten. Nur wichtige Versionsupdates (1.x.x) sollten veröffentlicht werden. Im [README.txt](README-TEMPLATE.md) ist ja ein Hinweis.
+
+**Namensschema:**<br>
+MaterialSummary - [Fach] - WS1213 - [Professor]
 
 ## Forks
 
