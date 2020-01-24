@@ -24,13 +24,19 @@ https://www.overleaf.com/read/vxcxbdmmtxyw
 Wird ein Dokument zum Download angeboten, muss das .zip Archiv folgendes beinhalten:
 
 -   **.pdf** Datei, um das Drucken zu vereinfachen
--   **.docx** Datei, damit der "Sourcecode” nicht verloren gehen kann
+-   **.docx** Datei, damit der "Sourcecode" nicht verloren gehen kann
+-   **.txt** Datei, damit der "Sourcecode" auch in unformatierter Form vorliegt
 -   **README.txt** nach diesem Schema: [README-TEMPLATE](README-TEMPLATE.md)
 
-Download Pakete sollten vom Maintainer erstellt werden, um Einheitlichkeit zu gewährleisten. Nur wichtige Versionsupdates (1.x.x) sollten veröffentlicht werden. Im [README.txt](README-TEMPLATE.md) ist ja ein Hinweis.
-
 **Namensschema:**<br>
-MaterialSummary - [Fach] - WS1213 - [Professor]
+MaterialSummary - [Fach] - [Versionsnummer] - [Semester] - [Professor]
+
+**Semester:** WS1920 / SS20
+
+Download Pakete sollten vom Maintainer erstellt werden, um Einheitlichkeit zu gewährleisten.
+
+Bei Versions-Updates sollte immer die bestehende Version aktualisiert werden.
+**Ausnahme:** Bei großem Versions-Sprung (1.x.x -> 2.0.0) neuen Upload-Eintrag erstellen.
 
 ## Forks
 
