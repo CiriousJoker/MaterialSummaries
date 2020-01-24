@@ -1,4 +1,4 @@
-# Guidelines - v1.6.0
+# Guidelines - v1.6.1
 
 Diese Guidelines definieren Struktur, Inhalt & Styling einer Zusammenfassung.
 
@@ -44,7 +44,7 @@ Diese Guidelines definieren Struktur, Inhalt & Styling einer Zusammenfassung.
 -   **Unformatierte mathematische Formeln sind verboten, keine Ausnahmen**
 -   Formeln, bei denen für einen Abiturienten **möglicherweise** nicht auf Anhieb **alle** Zeichen erkennbar sind, müssen so kompakt wie möglich farbcodiert und erklärt werden (-> LaTeX)
 -   Für Mathematische Formeln entweder den **Equation Editor** (built-in) oder LaTeX (z.B. [Overleaf](https://www.overleaf.com/read/vxcxbdmmtxyw)) verwenden
--   Für Schwarz-Weiß-LaTeX kann auch z.B. der **"Equation Editor ++" (Google Docs Addon)** verwendet werden
+-   Für Schwarz-Weiß-LaTeX kann auch z.B. der **"Equation Editor ++" (Google Docs Addon)** verwendet werden. Hierbei die DPI auf 300 setzen.
 -   Einzelne Zeichen können per `Insert -> Special characters` eingefügt werden
 
 Zum Bearbeiten von LaTeX mit vollem Funktionsumfang (z.B. Farb-Libraries) kann wie oben erwähnt Overleaf verwendet werden. Deren kostenlose Variante ist dabei völlig ausreichend.
