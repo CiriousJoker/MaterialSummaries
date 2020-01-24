@@ -1,4 +1,4 @@
-# Guidelines - v1.5.0
+# Guidelines - v1.6.0
 
 Diese Guidelines definieren Struktur, Inhalt & Styling einer Zusammenfassung.
 
@@ -33,9 +33,11 @@ Diese Guidelines definieren Struktur, Inhalt & Styling einer Zusammenfassung.
 
 ## Bei Platzmangel
 
--   Letzte Ebene aus der Gliederung entfernen (Ebenen 1 & 2 müssen bleiben)
 -   Evaluieren, ob Querformat evtl. Platz spart
--   Inhalte mit den niedrigsten Bewertungseinheiten/cm zuerst streichen
+-   Unwichtige letzte Ebenen aus der Gliederung entfernen
+-   Text-Styling auf kompakt umstellen
+-   Footer kann weggelassen werden
+-   Inhalte mit dem niedrigsten [EV](https://en.wikipedia.org/wiki/Expected_value)/cm zuerst streichen
 
 ## Mathematische Formeln
 
@@ -69,41 +71,78 @@ Für die Farbpalette gibt's unter Chrome eine geniale Extension namens [Simple M
 
 ## Text-Styling
 
--   **Defaults:**
-    -   **Font:** Roboto Normal
-    -   **Farbe:** MaterialGrey900
-    -   **Line Spacing:** 1
-    -   **Custom Spacing:** 0
-    -   **Custom Spacing (Überschriften 1-4):** 8 (before), 4 (after)
--   **Normaler Text:** 11, Line Spacing: 1.15
--   **Titel:** Roboto Light, 24, MaterialGrey700
--   **Überschrift 1:** 18
+Styling wird von unten nach oben überschrieben.<br>
+**Beispiel:** Ein verlinkter Titel ist nicht blau.
+
+-   **Titel-Versionsnummer:** 10
+-   **Titel:** Roboto Light, 20, MaterialGrey700, Zentriert
+-   **Untertitel:** Roboto, 14, MaterialBlue500, Custom Spacing: 4/8, Zentriert
+-   **Gliederung:** 8, Custom Spacing: 0/0
+-   **Überschrift 1:** 18, Rand unten
 -   **Überschrift 2:** 16
 -   **Überschrift 3:** 14
 -   **Überschrift 4:** Roboto Bold, 12
 -   **Links:** Wie Normaler Text, MaterialBlue500, **nicht unterstrichen**
+-   **Code:** Roboto Mono, 11, Siehe [Code](Code)
 -   **Gleichungen per Equation Editor:** 12
--   **Code:** Roboto Mono, 11, MaterialGrey900
+-   **Normaler Text:** 11, Line Spacing: 1.15
 -   **LaTeX-Formeln:** Möglichst die gleiche Größe wie umliegendert Text. Falls unmöglich, gleiche Größe wie umliegende LaTeX-Formeln
--   **Sonstiges:**
-    -   Überschriften dürfen nicht mit einem Doppelpunkt enden
-    -   Kein fett markierter Text in Überschriften (Ausnahme: Überschrift 4)
+-   **Defaults**
+    -   **Font:** Roboto Normal
+    -   **Farbe:** MaterialGrey900
+    -   **Line Spacing:** 1
+    -   **Custom Spacing (Titel, Überschriften 1-4):** 8/4
+    -   **Custom Spacing:** 0
+
+## Text-Styling (kompakt)
+
+Basiert auf dem normalen Text-Styling mit folgenden Unterschieden:
+
+-   **Titel-Versionsnummer:** 7
+-   **Titel:** 14
+-   **Untertitel:** 8, Custom Spacing: 2/4
+-   **Gliederung:** 7.5
+-   **Überschrift 1:** 10
+-   **Überschrift 2:** 9
+-   **Überschrift 3:** 8
+-   **Überschrift 4:** 7.5
+-   **Code:** 7.5
+-   **Gleichungen per Equation Editor:** TODO
+-   **Normaler Text:** 7.5
+-   **Defaults**
+    -   **Custom Spacing (Titel, Überschriften 1-4):** 4/2
 
 ## Gliederung
 
--   Kommt unter der Überschrift "Gliederung", die aber nicht in der Gliederung auftaucht
--   **Default Formatierung:** Wie automatisch angelegt
--   **Font Size:** 8
--   **Custom Spacing:** 0 (muss manuell gemacht werden!)
--   Überschriften, nach denen nicht "gesucht" wird, sollten entfernt werden. Das passiert z.B. bei Hinweisen, aber auch sonst bei Überschriften der 4. Ebene
+-   Hat keinen Anspruch auf Vollständigkeit
+-   Sollte die erste Seite nicht überschreiten
+-   Kommt unter der Überschrift "Gliederung", die aber selbst nicht in der Gliederung auftaucht
+-   Überschriften der letzten Ebene sind oft überflüssig und sollten generell entfernt werden (Ausnahmen möglich, z.B. wenn in der Überschrift ein Begriff vorkommt, nach dem in der Prüfung gesucht wird)
+-   Nummerierung in der Gliederung nur bis zur 2. Ebene
+-   Nur für wichtige Versionen (1.x.x): Roboto Mono für die Ziffern
+
+## Überschriften
+
+-   Überschriften dürfen nicht mit einem Doppelpunkt enden
+-   Kein fett markierter Text (Ausnahme: Überschrift 4)
+-   Kein CAPS-Lock
+-   Nummerierung ohne Punkt am Ende: 1.1.1
+-   Überschriften der Ebenen 1-3 sind nummeriert, der Rest nicht
+-   Die Überschrift der Gliederung erhält die unsichtbare Nummer 0
 
 ## Tabellen
 
--   **Ränder:** MaterialGrey300, gestrichelte Rahmen, kein äußerer Rahmen
--   **Randdicke:** Ausschließlich 1px bzw. 1,5px (je nach Bedarf)
+-   **Ränder:** Kein äußerer Rahmen
+-   **Randdicke:** Je nach Bedarf
 -   **Keine Hintergrundfarbe**
--   **Vertical Alignment:** middle
--   **Minimal-Abstand:** 0.1 falls nötig, sonst Standardabstand
+-   **Vertical Alignment:** middle (Ausnahmen erlaubt)
+-   **Minimal-Abstand:** 0.1
+
+## Ränder
+
+-   **Farbe:** MaterialGrey300
+-   **Stil:** gestrichelt
+-   **Randdicke:** 1 (default), 1.5 (dick)
 
 ## Code
 
@@ -112,36 +151,70 @@ Für die Farbpalette gibt's unter Chrome eine geniale Extension namens [Simple M
 -   Code **muss** grundsätzlich autoformatiert sein, Formatierung kann zum Besseren Verständnis geändert werden
 -   Für Kommentare im Code gilt inhaltlich das Gleiche wie hier
 
-## Hinweise:
+## Hinweise
 
 Hinweise müssen folgendermaßen formatiert werden (Überschrift 4):
 
 > **Hinweis(e):**<br>
 > Kurzer Satz oder Liste.
 
+## Listen
+
+-   Listennummerierung muss fett sein (nur bei nummerierten Listen)
+-   Keine Punkte/Doppelpunkte am Ende von Listenitems
+-   Maximal 2 Ebenen
+-   Listenitems mit Unteritems sollten so kurz wie möglich und unterstrichen sein
+-   Listenitems beginnen mit Großbuchstaben
+-   **Kompakt**
+    -   **Ebene 1:** Balken bei 0, Dreieck bei 0.5
+    -   **Ebene 2:** Balken bei 0.5, Dreieck bei 1
+
 ## Seitenlayout
 
 -   **Deckblatt:**
-    -   Titel
-    -   Subtitle: Versionsnummer mit Verlinkung zur offiziellen Version
+    -   Titel (Link zur offiziellen Version):<br>
+        MaterialSummary - [Fach] v[Versionsnummer]
+    -   Subtitle (Link zu diesem Repository):<br>
+        Über das Projekt
     -   Verlinkte Gliederung inkl. Seitennummern)
     -   Inhalt beginnt direkt unter der Gliederung
     -   Keine Seitennummer
--   **Rand:** 1cm, um Druckbarkeit zu gewährleisten
--   **Footer:**
-    -   **Links:** "Über da Projekt" (Link zu diesem Repository)
-    -   **Mitte:** MaterialSummary: [Fach] (Link zum offiziellen Google Doc der jeweiligen Zusammenfassung)
-    -   **Rechts:** Seitennummer, beginnend bei 1 für's Deckblatt
-        ![Cloudy](./Screenshots/Footer.png)
+-   **Seitenrand:** 1cm, um Druckbarkeit zu gewährleisten
 -   Hochformat ist grundsätzlich bevorzugt, kann aber (z.B. aus Platzmangel) geändert werden
+-   **Querformat**
+    -   2 Spalten
+    -   Spacing: 0.5
+    -   Linie zwischen den Spalten
 
-## Sonstiges
+## Footer
 
--   **Punktuation:** Sätze enden mit Punkten, Tabellenzellen/Listen-Items nicht
+### Aufbau
+
+-   **Links:** "Über das Projekt" (Link zu diesem Repository)
+-   **Mitte:** MaterialSummary - [Fach] (Link zum offiziellen Google Doc der jeweiligen Zusammenfassung)
+-   **Rechts:** Seitennummer, beginnend bei 1 für's Deckblatt
+
+### Beispiele
+
+**Hochformat:**
+
+![Footer](./Screenshots/Footer-Hochformat.png)
+
+**Querformat (kompakt):**
+
+![Footer](./Screenshots/Footer-Querformat-Kompakt.png)
+
+### Umsetzung
+
+-   Format -> Header & Footer -> Footer: 0.4 (normal) / 0.2 (kompakt)
+-   Umsetzung als [Tabelle](#Tabellen). Kein Rand. Kein Innenabstand. Dünner Rahmen oben. Mitte+Zentriert. Volle Breite
+-   Text-Styling: Normaler Text, MaterialGrey300
+-   Text-Styling Links: MaterialBlue300
+-   Leerzeile nach der Tabelle: Normaler Text, Schriftgröße 1
 
 ## Versionsnummern
 
-Versionsnummern werden für die Zusammenfassungen, die [GUIDELINES](GUIDELINES.md) & die [LIZENZ](LIZENZ.md) verwendet und müssen entsprechend aktualisiert werden.
+Versionsnummern werden für die Zusammenfassungen, die [GUIDELINES](GUIDELINES.md) & die [LIZENZ](LIZENZ.md) verwendet und müssen entsprechend aktualisiert werden. Neue Versionen in Google Docs müssen mit der Versionsnummer benannt werden (File -> Version history -> Name current version).
 
 **Schema:** 1.2.3
 
