@@ -1,4 +1,4 @@
-# Guidelines - v1.6.1
+# Guidelines - v1.7.0
 
 Diese Guidelines definieren Struktur, Inhalt & Styling einer Zusammenfassung.
 
@@ -207,8 +207,8 @@ Hinweise müssen folgendermaßen formatiert werden (Überschrift 4):
 ### Umsetzung
 
 -   Format -> Header & Footer -> Footer: 0.4 (normal) / 0.2 (kompakt)
--   Umsetzung als [Tabelle](#Tabellen). Kein Rand. Kein Innenabstand. Dünner Rahmen oben. Mitte+Zentriert. Volle Breite
--   Text-Styling: Normaler Text, MaterialGrey300
+-   Umsetzung als [Tabelle](#Tabellen). Kein Rand. Kein Innenabstand. Dünner Rahmen oben (MaterialGrey500). Mitte+Zentriert. Volle Breite.
+-   Text-Styling: Normaler Text, MaterialGrey500
 -   Text-Styling Links: MaterialBlue300
 -   Leerzeile nach der Tabelle: Normaler Text, Schriftgröße 1
 
