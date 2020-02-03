@@ -1,4 +1,4 @@
-# Guidelines - v1.7.0
+# Guidelines - v1.8.0
 
 Diese Guidelines definieren Struktur, Inhalt & Styling einer Zusammenfassung.
 
@@ -165,9 +165,11 @@ Hinweise müssen folgendermaßen formatiert werden (Überschrift 4):
 -   Maximal 2 Ebenen
 -   Listenitems mit Unteritems sollten so kurz wie möglich und unterstrichen sein
 -   Listenitems beginnen mit Großbuchstaben
--   **Kompakt**
+-   **Indentation**
     -   **Ebene 1:** Balken bei 0, Dreieck bei 0.5
     -   **Ebene 2:** Balken bei 0.5, Dreieck bei 1
+-   **Indentation (Tabelle)**
+    -   **Ebene 1:** Balken bei 0, Dreieck bei 0.25
 
 ## Seitenlayout
 
