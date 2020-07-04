@@ -1,4 +1,4 @@
-# Guidelines - v1.8.0
+# Guidelines - v1.8.1
 
 Diese Guidelines definieren Struktur, Inhalt & Styling einer Zusammenfassung.
 
@@ -132,17 +132,14 @@ Basiert auf dem normalen Text-Styling mit folgenden Unterschieden:
 
 ## Tabellen
 
--   **Ränder:** Kein äußerer Rahmen
--   **Randdicke:** Je nach Bedarf
+-   **Ränder:**
+    - **Farbe:** MaterialGrey300
+    - **Randdicke:** 1 (default), 1.5 (dick)
+    - **Stil:** gestrichelt
+    - Kein äußerer Rahmen
 -   **Keine Hintergrundfarbe**
 -   **Vertical Alignment:** middle (Ausnahmen erlaubt)
--   **Minimal-Abstand:** 0.1
-
-## Ränder
-
--   **Farbe:** MaterialGrey300
--   **Stil:** gestrichelt
--   **Randdicke:** 1 (default), 1.5 (dick)
+-   **Minimale Zellenabstand:** 0.1
 
 ## Code
 
