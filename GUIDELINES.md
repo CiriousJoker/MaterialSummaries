@@ -1,4 +1,4 @@
-# Guidelines - v1.9.0
+# Guidelines - v1.10.0
 
 Diese Guidelines definieren Struktur, Inhalt & Styling einer Zusammenfassung.
 
@@ -107,7 +107,7 @@ Basiert auf dem normalen Text-Styling mit folgenden Unterschieden:
 -   **Überschrift 3:** 8
 -   **Überschrift 4:** 7.5
 -   **Code:** 7.5
--   **Gleichungen per Equation Editor:** TODO
+-   **Gleichungen per Equation Editor:** 9
 -   **Normaler Text:** 7.5, Line Spacing: 1
 -   **Defaults**
     -   **Custom Spacing (Titel, Überschriften 1-4):** 4/2
