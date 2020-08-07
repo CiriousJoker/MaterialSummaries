@@ -1,6 +1,8 @@
-# Guidelines - v1.10.0
+# Guidelines - v1.10.1
 
 Diese Guidelines definieren Struktur, Inhalt & Styling einer Zusammenfassung.
+
+[TEMPLATE](https://docs.google.com/document/d/1Sk2F0yTOWzbMtZ_ThCOC0NWi-HoJzrQ1DCGC-vVRLoU/edit?usp=sharing)
 
 # Inhalt
 
