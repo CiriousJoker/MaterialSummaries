@@ -1,18 +1,21 @@
 {
-    "editor.fontSize": 7,
+    "editor.fontSize": 11, // (normal)
+    //"editor.fontSize": 7.5, // (kompakt) Docs oder VSCode verfälscht die Schriftart. Das Ergebnis sollte 5.5 sein.
     "workbench.colorCustomizations": {
         "editor.background": "#ffffff"
     },
+    "editor.fontFamily": "'Roboto Mono'", // Download hier: https://fonts.google.com/specimen/Roboto+Mono
     "editor.tokenColorCustomizations": {
-        "[Material Light]": {
-            "comments": "#4caf50",
-            "functions": "#2196F3",
-            "variables": "#212121",
-            "keywords": "#ff9800",
-            "strings": "#f44336",
-            "numbers": "#00bcd4"
+        "[Material Light]": { // https://marketplace.visualstudio.com/items?itemName=JonaDuran.my-light-theme
+            "comments": "#4caf50",  // green
+            "functions": "#2196F3", // blue
+            "variables": "#212121", // black
+            "keywords": "#ff9800",  // orange
+            "strings": "#f44336",   // red
+            "numbers": "#00bcd4"    // cyan
         }
     },
     "editor.insertSpaces": true,
-    "editor.tabSize": 1
+    "editor.tabSize": 2
+    // "editor.tabSize": 1 // kompakt
 }
