@@ -1,4 +1,4 @@
-# Guidelines - v1.10.1
+# Guidelines - v1.11.0
 
 Diese Guidelines definieren Struktur, Inhalt & Styling einer Zusammenfassung.
 
@@ -85,7 +85,7 @@ Styling wird von unten nach oben überschrieben.<br>
 -   **Überschrift 3:** 14
 -   **Überschrift 4:** Roboto Bold, 12
 -   **Links:** Wie Normaler Text, MaterialBlue500, **nicht unterstrichen**
--   **Code:** Roboto Mono, 11, Siehe [Code](Code)
+-   **Code:** [Roboto Mono (Normal oder Medium)](https://fonts.google.com/specimen/Roboto+Mono), 11, Siehe [Code](Code)
 -   **Gleichungen per Equation Editor:** 12
 -   **Normaler Text:** 11, Line Spacing: 1.15
 -   **LaTeX-Formeln:** Möglichst die gleiche Größe wie umliegendert Text. Falls unmöglich, gleiche Größe wie umliegende LaTeX-Formeln
@@ -108,7 +108,7 @@ Basiert auf dem normalen Text-Styling mit folgenden Unterschieden:
 -   **Überschrift 2:** 9
 -   **Überschrift 3:** 8
 -   **Überschrift 4:** 7.5
--   **Code:** 7.5
+-   **Code:** 5.5
 -   **Gleichungen per Equation Editor:** 9
 -   **Normaler Text:** 7.5, Line Spacing: 1
 -   **Defaults**
@@ -120,7 +120,7 @@ Basiert auf dem normalen Text-Styling mit folgenden Unterschieden:
 -   Sollte die erste Seite nicht überschreiten
 -   Kommt unter der Überschrift "Gliederung", die aber selbst nicht in der Gliederung auftaucht
 -   Überschriften der letzten Ebene sind oft überflüssig und sollten generell entfernt werden (Ausnahmen möglich, z.B. wenn in der Überschrift ein Begriff vorkommt, nach dem in der Prüfung gesucht wird)
--   Nummerierung in der Gliederung nur bis zur 2. Ebene
+-   Nummerierung in der Gliederung nur bis zur 2. Ebene (Addon: Table of Contents)
 -   Nur für wichtige Versionen (1.x.x): Roboto Mono für die Ziffern
 
 ## Überschriften
@@ -129,8 +129,9 @@ Basiert auf dem normalen Text-Styling mit folgenden Unterschieden:
 -   Kein fett markierter Text (Ausnahme: Überschrift 4)
 -   Kein CAPS-Lock
 -   Nummerierung ohne Punkt am Ende: 1.1.1
--   Überschriften der Ebenen 1-3 sind nummeriert, der Rest nicht
--   Die Überschrift der Gliederung erhält die unsichtbare Nummer 0
+-   Überschriften der Ebenen 1 und 2 sind nummeriert, der Rest nicht
+-   Überschrift der Gliederung hat keine Nummerierung (zählt als 0)
+-   Zur automatischen Nummerierung: Table of Contents Addon
 
 ## Tabellen
 
@@ -147,8 +148,9 @@ Basiert auf dem normalen Text-Styling mit folgenden Unterschieden:
 
 -   Die Farbpalette gilt auch hier, Hintergrund ist #ffffff
 -   Hier ist die [settings.json](settings.json) für Visual Studio Code
--   Code **muss** grundsätzlich autoformatiert sein, Formatierung kann zum Besseren Verständnis geändert werden
--   Für Kommentare im Code gilt inhaltlich das Gleiche wie hier
+-   Code **muss** grundsätzlich autoformatiert sein, Formatierung kann zum besseren Verständnis geändert werden
+-   Für Kommentare im Code gilt inhaltlich das Gleiche wie im restlichen Text
+-   Code-Tabelle aus dem Template beachten
 
 ## Hinweise
 
